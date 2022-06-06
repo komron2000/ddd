@@ -1,0 +1,55 @@
+body {
+  height: 0;
+  top: 0;
+}
+.item {
+  background-color: #2196f3;
+  display: flex;
+  text-decoration: none;
+  height: 7vh;
+}
+.header__logo {
+  padding: 10px;
+  font-family: 'Roboto';
+  color: #fff;
+}
+.active {
+  padding-left: 50px;
+}
+.intro {
+  list-style: none;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+.intro__logo:hover {
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.24), 0px 9px 18px rgba(0, 0, 0, 0.18);
+}
+.intro__logo {
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  margin: 0;
+  border: 5px solid #fff;
+
+  overflow: hidden;
+}
+
+.intro__img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.intro__logo:hover .intro__img {
+  position: absolute;
+  overflow: hidden;
+  top: 70%;
+  left: 70%;
+}
+
+.intro__img:hover {
+  background-image: url('/img/favorite.png');
+}
